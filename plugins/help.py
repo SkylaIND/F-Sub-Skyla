@@ -42,8 +42,8 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/InfoFlicksUserbot"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/FlicksSupport")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/SkylaIND"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/skylasupport")
                       ],
 
                   ]
@@ -57,8 +57,8 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/InfoFlicksUserbot"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/FlicksSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/SkylaIND"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/skylasupport")
                 ],
             ]
         ),
@@ -77,11 +77,11 @@ def _source_code(client, message):
                     InlineKeyboardButton("Creator", url="https://t.me/farizsj")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/InfoFlicksUserbot"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/FlicksSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/SkylaIND"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/skylasupport")
                 ],
                 [
-                    InlineKeyboardButton("Creator", url="https://t.me/farizsj")
+                    InlineKeyboardButton("Creator", url="https://t.me/Zxyune")
                 ]
             ]
         ),
@@ -98,7 +98,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Maaf, Anda Dilarang menggunakan saya. Silahkan Kontak [Support Group](https://t.me/FlicksSupport).",
+                   text="Maaf, Anda Dilarang menggunakan saya. Silahkan Kontak [Support Group](https://t.me/skylasupport).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -120,7 +120,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hei gunakan perintah ini di obrolan pribadi saya. \nUntuk bantuan lebih lanjut, tanyakan di [Support Group](https://t.me/FlicksSupport).",
+                text="Hei gunakan perintah ini di obrolan pribadi saya. \nUntuk bantuan lebih lanjut, tanyakan di [Support Group](https://t.me/skylasupport).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return

@@ -4,12 +4,12 @@
 ## Deploy
 
 #### Deploy Di Heroku:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/farizjs/ForceSubscribe)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SkylaIND/F-Sub-Skyla)
 
 #### Deploy di vps
 - Clone repo ini
 ```
-git clone https://github.com/farizjs/ForceSubscribe
+git clone https://github.com/SkylaIND/F-Sub-Skyla
 ```
 - Mengubah directory
 ```
@@ -33,6 +33,7 @@ python3 bot.py
 ## Credits
 
 - [Rexinazor](https://github.com/Rexinazor/ForceSubscribeBOT) - ForceSubscribeBOT
+- [Fariz](https://github.com/farizjs/ForceSubscribe) - ForceSubscribe
 
 
 **Jangan lupa, fork dan berikan bintang ya** 

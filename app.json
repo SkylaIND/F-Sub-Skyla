@@ -1,5 +1,5 @@
 {
-    "name": "ForceSubscribe",
+    "name": "F-Sub-Skyla",
     "description": "Bot untuk Memaksa Pengguna untuk bergabung ke channel.",
     "logo": "",
     "keywords": [
@@ -9,8 +9,8 @@
         "telegram-bot",
         "ForceSubBot"
     ],
-    "repository": "https://github.com/farizjs/ForceSubscribe",
-    "success_url": "https://t.me/FlicksSupport",
+    "repository": "https://github.com/SkylaIND/F-Sub-Skyla",
+    "success_url": "https://t.me/skylasupport",
     "env": {
         "API_HASH": {
             "description": "API HASH dari my.telegram.org",
